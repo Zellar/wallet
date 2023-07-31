@@ -1,0 +1,809 @@
+.hero__header-decor::before {
+    width: 4.5em;
+    height: 4.5em;
+    top: -2.3em;
+    left: -1.1em;
+}
+
+.hero__header-decor {
+    right: 1.4em;
+    word-spacing: 0px;
+}
+
+@media(max-width: 1940px) {
+    .hero__header {
+        font-size: calc(100vw - 92.4vw);
+    }
+}
+
+@media(max-width: 1875px) {
+    .advantages {
+        padding: 200px 100px;
+    }
+    .advantages__list {
+        gap: 30px;
+    }
+}
+
+@media(max-width: 1730px) {
+    .hero__header {
+        font-size: calc(100vw - 93.5vw);
+    }
+
+    .screen-block__wrapper {
+        padding: 130px 140px;
+        justify-content: space-between;
+    }
+}
+
+@media(max-width: 1540px) {
+    .advantages__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1400px) {
+    .hero__big-col {
+        display: flex;
+        align-items: center;
+    }
+
+    .screen-block__wrapper {
+        flex-direction: column;
+    }
+
+    .screen-block__text {
+        margin-bottom: 60px;
+    }
+
+    .screen-block__exchange-rates {
+        width: 100%;
+    }
+    
+    .wrapper {
+        padding: 0 40px;
+    }
+
+    .advantages__list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .advantages {
+        padding: 200px 100px;
+    }
+
+    .advantages__decor-bottom {
+        display: none;
+    }
+
+    .advantages__decor-coins {
+        display: none;
+    }
+
+    .advantages__text-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .connect-title {
+        display: block;
+        text-align: center;
+    }
+
+    .connect {
+        background: none;
+    }
+
+    .connect__comment-block {
+        height: 280px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .hero {
+        padding: 60px;
+    }
+
+    .hero__big-col {
+        display: flex;
+        align-items: center;
+    }
+
+    .screen-block__wrapper {
+        top: -60px;
+        flex-direction: column;
+    }
+
+    .screen-block__text {
+        margin-bottom: 60px;
+    }
+
+    .screen-block__exchange-rates {
+        width: 100%;
+    }
+    
+    .btn span {
+        font-size: 30px;
+    }
+
+    .btn {
+        padding: 30px 40px;
+    }
+
+    .wrapper {
+        padding: 0 40px;
+    }
+
+    .advantages__list {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+    .advantages {
+        padding: 80px 10px;
+    }
+
+    .advantages__text-block {
+        margin-left: 20px;
+    }
+
+    .advantages__decor-coins {
+        display: none;
+    }
+
+    .advantages__decor-left {
+        display: none;
+    }
+
+    .advantages__decor-right {
+        display: none;
+    }
+
+    .advantages__decor-bottom {
+        display: none;
+    }
+
+    .advantages__text-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .connect {
+        background: none;
+    }
+
+    .connect__comments-list {
+        padding: 0 40px;
+    }
+
+    .connect-title {
+        display: block;
+        text-align: center;
+    }
+
+    .connect__comment-block {
+        height: 350px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero {
+        padding: 100px 20px;
+        font-size: 52px;
+        background: url('/images/pattern-mob.webp'), url('/images/coins-mob.webp');
+        background-size: cover, 90%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: center, 0% -40%;
+    }
+
+    .hero__big-col {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hero__wrapper {
+        flex-direction: column;
+    }
+
+    .hero__header {
+        font-size: 90px;
+    }
+
+    .hero__header-decor {
+        right: 1.4em;
+        word-spacing: 0px;
+    }
+
+    .hero__header-decor::before {
+        width: 4.5em;
+        height: 4.5em;
+        top: -2.3em;
+        left: -1.1em;
+    }
+
+    .hero__col {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .form__input {
+        padding: 25px 15px;
+    }
+
+    .btn {
+        padding: 1em 1.2em;
+        font-size: 30px;
+    }
+
+    .btn span {
+        font-size: 30px;
+    }
+
+    .screen-block__wrapper {
+        flex-direction: column;
+        padding: 80px 80px;
+    }
+
+    .screen-block__exchange-rates {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .screen-block__first-col {
+        width: 100%;
+    }
+
+    .screen-block__second-col {
+        width: 100%;
+    }
+
+    .screen-block__rates-block {
+        max-width: 100%;
+    }
+
+    .screen-block__wrapper {
+        background: url('/images/phone-mob-2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        gap: 30px;
+        top: -60px;
+    }
+
+    .description__title {
+        text-align: center;
+    }
+
+    .description__title br {
+        display: none;
+    }
+
+    .description__title-wrapper {
+        padding: 0 70px;
+    }
+
+    .description__subtitle {
+        text-align: center;
+    }
+
+    .description__subtitle br {
+        display: none;
+    }
+
+    .chat-slider {
+        display: none;
+    }
+
+    .chat-slider--mobile {
+        display: flex;
+        flex-direction: column;
+        padding: 0 40px;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    .review-block {
+        width: 100%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: calc(100vw - 30vw);
+        display: block;
+        padding: 0;
+    }
+
+    .review-block__header {
+        /* margin-top: 150px; */
+        margin-top: calc(100vw - 80vw);
+        padding-left: 60px;
+    }
+
+    .review-block__text {
+        margin-top: 50px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .form__textarea {
+        padding: 25px 15px;
+    }
+
+    .advantages {
+        padding: 0;
+        background: url('/images/pattern-mob.webp');
+        background-repeat: no-repeat;
+        padding-bottom: 30px;
+        background-size: 90%;
+    }
+
+    .advantages__list {
+        flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+        gap: 45px;
+    }
+
+    .advantages__decor-right {
+        display: none;
+    }
+
+    .advantages__decor-left {
+        display: none;
+    }
+
+    .advantages__decor-bottom {
+        display: none;
+    }
+
+    .advantages__decor-coins {
+        display: none;
+    }
+
+    .advantages__card-wrapper {
+        padding-bottom: 30px;
+    }
+
+    .advantages__text-block {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px;
+    }
+
+    .advantages__text br {
+        display: none;
+    }
+
+    .connect-title {
+        text-align: center;
+        display: block;
+    }
+
+    .connect-title br {
+        display: none;
+    }
+
+    .connect {
+        background: none;
+    }
+
+    .connect__comments-list {
+        padding: 0 20px;
+    }
+
+    .connect__comment-block {
+        min-height: 335px;
+    }
+
+    .advantages {
+        background: url('/images/ff.webp');
+        background-repeat: no-repeat;
+        background-position: center 102%;
+        background-size: 100%;
+    }
+
+    .review-block__text br {
+        display: none;
+    }
+}
+
+@media(max-width: 768px) {
+    .hero__header {
+        font-size: 70px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+        background-size: cover, 0%;
+    }
+
+    .hero__col {
+        padding-top: 35px;
+    }
+
+    .btn {
+        font-size: 25px;
+    }
+
+    .btn span {
+        font-size: 25px;
+    }
+
+    .screen-block__wrapper {
+        padding: 40px;
+        background-size: 100%;
+        top: -15px;
+    }
+
+    .screen-block__text {
+        font-size: 30px;
+    }
+
+    .screen-block__text br {
+        display: none;
+    }
+
+    .description__title {
+        font-size: 40px;
+    }
+
+    .advantages__list {
+        margin-bottom: 40px;
+    }
+
+    .advantages__text-block {
+        margin-top: 70px;
+    }
+
+    .advantages__title {
+        margin-bottom: 30px;
+    }
+
+    .connect {
+        padding: 40px 0;
+    }
+
+    .connect-title {
+        margin-bottom: 50px;
+    }
+
+    .connect__comment-text {
+        font-size: 18px;
+    }
+
+    .connect__comment-title {
+        font-size: 25px;
+    }
+
+    .connect__comments-list {
+        margin-bottom: 40px;
+    }
+
+    .footer__upper-block {
+        padding: 40px 0;
+    }
+
+    .footer__link {
+        font-size: 25px;
+    }
+
+    .footer__tagline {
+        font-size: 30px;
+    }
+
+    .footer__copyright {
+        font-size: 20px;
+    }
+
+    .connect-title {
+        font-size: 30px;
+    }
+
+    .review-block__header {
+        margin-top: calc(100vw - 84vw);
+        padding-left: 30px;
+    }
+
+    .review-block__text {
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 16px;
+    }
+
+    .review-block__title {
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 576px) {
+    .hero__header {
+        font-size: 55px;
+    }
+
+    .crypto-exchanges__list {
+        justify-content: center;
+        gap: 35px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .screen-block__wrapper {
+        padding: 0;
+        background: none;
+        top: 0;
+    }
+
+    .screen-block {
+        padding: 25px 25px;
+    }
+
+    .screen-block__currency {
+        font-size: 25px;
+    }
+
+    .screen-block__number {
+        font-size: 25px;
+    }
+
+    .screen-block__rates-block {
+        align-items: center;
+    }
+
+    .screen-block__rates-block {
+        padding: 20px;
+    }
+
+    .screen-block__icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .description__title-wrapper {
+        padding: 0 30px;
+    }
+
+    .description__title {
+        font-size: 35px;
+    }
+
+    .description__subtitle {
+        font-size: 20px;
+    }
+
+    .description__title-wrapper {
+        margin-bottom: 30px;
+    }
+
+    .chat-slider--mobile {
+        padding: 0 20px;
+    }
+
+    .review-block__avatar {
+        width: 60px;
+        height: 60px;
+    }
+
+    .review-block__header {
+        padding-left: 15px;
+    }
+
+    .review-block__title {
+        font-size: 20px;
+    }
+
+    .review-block__text {
+        padding: 0 15px;
+        font-size: 14px;
+    }
+
+    .advantages__card-wrapper {
+        padding: 15px;
+        padding-bottom: 15px;
+    }
+
+    .advantages__text-wrapper {
+        padding: 0;
+    }
+
+    .advantages__card-title {
+        margin-bottom: 15px;
+    }
+
+    .advantages__card-icon {
+        max-width: 80px;
+    }
+
+    .advantages__card-text br {
+        display: none;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .btn span {
+        font-size: 20px;
+    }
+
+    .advantages__text-block {
+        margin-top: 40px;
+    }
+
+    .advantages__title br {
+        display: none;
+    }
+
+    .advantages__text-block {
+        padding: 0 15px;
+    }
+
+    .connect__comment-avatar {
+        display: none;
+    }
+
+    .connect__comment-title {
+        font-size: 20px;
+    }
+
+    span.connect__comment-raiting {
+        width: 25%;
+    }
+
+    .connect__comment-like::before {
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+    }
+
+    .connect__comment-btns {
+        font-size: 20px;
+    }
+
+    .connect__comment::before {
+        width: 25px;
+        height: 25px;
+        background-size: contain;
+    }
+
+    .connect__comment-block {
+        padding: 20px;
+        min-height: 300px;
+    }
+
+    .connect__comment-text br {
+        display: none;
+    }
+
+    .footer__link-wrapper {
+        justify-content: space-between;
+        width: 100%;
+        gap: 0;
+    }
+
+    .footer__link {
+        font-size: 20px;
+    }
+
+    .footer__tagline {
+        font-size: 20px;
+    }
+
+    .footer__copyright {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 425px) {
+    .hero__header {
+        font-size: 45px;
+    }
+
+    .description__title {
+        font-size: 30px;
+    }
+
+    .review-block__avatar {
+        display: none;
+    }
+
+    .review-block__title {
+        font-size: 16px;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0;
+        width: 100%;
+        padding-right: 15px;
+    }
+
+    .chat-slider--mobile {
+        margin-bottom: 30px;
+    }
+
+    .advantages__card {
+        font-size: 16px;
+    }
+
+    .advantages__title {
+        font-size: 30px;
+    }
+
+    .advantages__text {
+        font-size: 20px;
+    }
+
+    .connect-title {
+        padding: 15px;
+        font-size: 25px;
+    }
+}
+
+@media(max-width: 375px) {
+    .hero {
+        padding: 20px 15px;
+    }
+
+    .hero__header {
+        font-size: 40px;
+    }
+
+    .review-block__title {
+        display: none;
+    }
+
+    .review-block__text {
+        margin-top: 0;
+    }
+
+    .review-block__text {
+        font-size: 13px;
+    }
+
+    .advantages__title {
+        font-size: 25px;
+    }
+
+    .advantages__text {
+        font-size: 16px;
+    }
+
+    .connect-title {
+        margin-bottom: 20px;
+    }
+
+    .connect-title {
+        font-size: 20px;
+    }
+
+    .connect__comment-text {
+        font-size: 16px;
+    }
+
+    .connect__comment-btns {
+        font-size: 16px;
+    }
+
+    .footer__link {
+        font-size: 16px;
+    }
+
+    .footer__tagline {
+        font-size: 18px;
+    }
+
+    .footer__copyright {
+        text-align: center;
+    }
+
+    .footer__lover-block {
+        padding: 15px;
+    }
+}
