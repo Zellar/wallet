@@ -1,7 +1,15 @@
+html {
+    overflow-x: hidden;
+    position: relative;
+    height: 100%;
+}
+
 body {
     font-family: 'Montserrat';
     background: linear-gradient(180deg, #3F2B73 0%, #683DD6 100%);
     overflow-x: hidden;
+    position: relative;
+    height: 100%;
 }
 
 .main {
@@ -47,6 +55,7 @@ body {
     opacity: 1;
     height: 100%;
     z-index: 2;
+    border-radius: 30px;
     transition: all 0.3s;
 }
 
@@ -61,6 +70,7 @@ body {
     opacity: 0;
     height: 100%;
     z-index: 2;
+    border-radius: 30px;
     transition: all 0.3s;
 }
 
@@ -432,6 +442,7 @@ body {
             padding: 30px;
             padding-bottom: 90px;
             height: 100%;
+            border-radius: 40px;
         }
 
         .advantages__card-icon {
