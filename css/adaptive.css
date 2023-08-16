@@ -16,12 +16,31 @@
     }
 }
 
+@media(max-width: 1920px) {
+    .gallery-item {
+        width: 38.4vw;
+    }
+
+    .gallery-controls {
+        bottom: -10vw;
+    }
+
+    .advantages {
+        padding-top: 15vw;
+    }
+}
+
 @media(max-width: 1875px) {
     .advantages {
         padding: 200px 100px;
+        padding-top: 300px;
     }
     .advantages__list {
         gap: 30px;
+    }
+
+    .gallery {
+        top: 4.8vw;
     }
 }
 
@@ -34,19 +53,95 @@
         padding: 130px 140px;
         justify-content: space-between;
     }
+
+    .gallery {
+        top: 6.8vw;
+    }
+
+    .screen-block__icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .screen-block__number {
+        font-size: 25px;
+    }
+
+    .screen-block__currency {
+        font-size: 25px;
+    }
+
+    .advantages__decor-bottom {
+        right: -7%;
+    }
+
+    .advantages__decor-bottom img {
+        width: 85%;
+    }
+
+    .advantages__decor-coins {
+        right: -16%;
+        bottom: -80px;
+    }
+
+    .advantages__decor-coins img {
+        width: 85%;
+    }
 }
 
 @media(max-width: 1540px) {
     .advantages__list {
-        flex-wrap: wrap;
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .gallery {
+        top: 8.8vw;
+    }
+
+    .screen-block__exchange-rates {
+        width: 55%;
+    }
+
+    .screen-block__text {
+        font-size: 30px;
+    }
+
+    .advantages__card-wrapper {
+        padding-bottom: 40px;
+    }
+
+    .advantages__card-text br {
+        display: none;
+    }
+
+    .advantages__text-wrapper {
+        font-size: 16px;
     }
 }
 
 @media(max-width: 1400px) {
+    .hero {
+        padding: 200px 100px;
+    }
     .hero__big-col {
         display: flex;
         align-items: center;
+    }
+
+    .btn {
+        padding: 25px 35px;
+    }
+
+    .btn span {
+        font-size: 25px;
+    }
+
+    .form__input {
+        padding: 25px 15px;
+    }
+
+    .form__textarea {
+        padding: 25px 15px;
     }
 
     .screen-block__wrapper {
@@ -63,30 +158,44 @@
     
     .wrapper {
         padding: 0 40px;
+        margin-bottom: -140px;
     }
 
     .advantages__list {
-        flex-wrap: wrap;
         justify-content: center;
     }
 
     .advantages {
-        padding: 200px 100px;
+        padding: 200px 40px;
+        padding-top: 300px;
     }
 
     .advantages__decor-bottom {
-        display: none;
+        
     }
 
     .advantages__decor-coins {
-        display: none;
+        bottom: -80px;
+        right: -17%;
     }
 
     .advantages__text-block {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
         margin-left: 0;
+    }
+
+    .advantages__decor-left img {
+        width: 75%;
+    }
+
+    .advantages__decor-right {
+        right: -10%;
+    }
+
+    .advantages__decor-right img {
+        width: 75%;
     }
 
     .connect-title {
@@ -99,7 +208,33 @@
     }
 
     .connect__comment-block {
-        height: 280px;
+        height: 100%;
+    }
+
+    .gallery {
+        top: 12vw;
+    }
+
+    .gallery-controls {
+        bottom: -8vw;
+    }
+
+    .gallery-controls button {
+        width: 65px;
+        height: 65px;
+    }
+
+    .gallery-controls-next::before {
+        width: 30px;
+        height: 30px;
+    }
+    .gallery-controls-prev::before {
+        width: 30px;
+        height: 30px;
+    }
+
+    .screen-block__first-col {
+        align-items: flex-end;
     }
 }
 
@@ -136,6 +271,7 @@
 
     .wrapper {
         padding: 0 40px;
+        margin-bottom: -280px;
     }
 
     .advantages__list {
@@ -146,32 +282,51 @@
 
     .advantages {
         padding: 80px 10px;
-    }
-
-    .advantages__text-block {
-        margin-left: 20px;
+        padding-top: 250px;
     }
 
     .advantages__decor-coins {
-        display: none;
+        bottom: -70px;
+        right: -370px;
     }
 
-    .advantages__decor-left {
-        display: none;
+    .advantages__decor-coins img {
+        width: 70%;
+    }
+
+    .advantages__decor-left img {
+        width: 45%;
     }
 
     .advantages__decor-right {
-        display: none;
+        right: -240px;
+        bottom: 28%;
+    }
+
+    .advantages__decor-right img {
+        width: 45%;
     }
 
     .advantages__decor-bottom {
-        display: none;
+        right: -220px;
+    }
+
+    .advantages__decor-bottom img {
+        width: 70%;
     }
 
     .advantages__text-block {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        margin-left: 0px;
+        padding: 0 30px;
+    }
+
+    .advantages__title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .advantages__text {
+        font-size: 20px;
     }
 
     .connect {
@@ -188,7 +343,31 @@
     }
 
     .connect__comment-block {
-        height: 350px;
+        height: 100%;
+    }
+
+    .connect__comment-block br {
+        display: none;
+    }
+
+    .gallery {
+        top: 16.6vw;
+    }
+
+    .gallery-controls {
+        bottom: -4vw;
+    }
+
+    .advantages__card-icon {
+        max-width: 85px;
+    }
+
+    .advantages__card-title {
+        margin-bottom: 15px;
+    }
+
+    .advantages__card-wrapper {
+        padding: 20px;
     }
 }
 
@@ -248,12 +427,17 @@
 
     .screen-block__wrapper {
         flex-direction: column;
-        padding: 80px 80px;
+        padding: 80px 120px;
     }
 
     .screen-block__exchange-rates {
         flex-direction: column;
-        width: 100%;
+        width: 90%;
+    }
+
+    .screen-block__text {
+        font-size: 25px;
+        margin-bottom: 20px;
     }
 
     .screen-block__first-col {
@@ -266,12 +450,30 @@
 
     .screen-block__rates-block {
         max-width: 100%;
+        padding: 20px 20px;
+    }
+
+    .screen-block__icon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .screen-block__number {
+        font-size: 20px;
+    }
+
+    .screen-block__currency {
+        font-size: 20px;
     }
 
     .screen-block__wrapper {
         background: url('/images/phone-mob-2.png');
         background-repeat: no-repeat;
         background-size: cover;
+        background-size: 65%;
+        background-position: top center;
+        padding-bottom: 0;
+        padding: 80px 160px;
         gap: 30px;
         top: -60px;
     }
@@ -314,6 +516,7 @@
         background-repeat: no-repeat;
         height: calc(100vw - 30vw);
         display: block;
+        margin-bottom: -80px;
         padding: 0;
     }
 
@@ -327,6 +530,7 @@
         margin-top: 50px;
         padding-left: 60px;
         padding-right: 60px;
+        font-size: 2.6vw;
     }
 
     .form__textarea {
@@ -342,12 +546,14 @@
     }
 
     .advantages__list {
-        flex-direction: column;
-        flex-direction: column;
         justify-content: center;
         align-content: center;
         flex-wrap: wrap;
-        gap: 45px;
+        gap: 15px;
+    }
+
+    .advantages__card {
+        max-width: 350px;
     }
 
     .advantages__decor-right {
@@ -399,10 +605,6 @@
         padding: 0 20px;
     }
 
-    .connect__comment-block {
-        min-height: 335px;
-    }
-
     .advantages {
         background: url('/images/ff.webp');
         background-repeat: no-repeat;
@@ -412,6 +614,16 @@
 
     .review-block__text br {
         display: none;
+    }
+
+    .wrapper {
+        margin-bottom: 0;
+    }
+}
+
+@media(min-width: 769px) {
+    .review-block {
+        width: 85vw;
     }
 }
 
@@ -438,7 +650,7 @@
     }
 
     .screen-block__wrapper {
-        padding: 40px;
+        padding: 60px;
         background-size: 100%;
         top: -15px;
     }
@@ -457,6 +669,7 @@
 
     .advantages__list {
         margin-bottom: 40px;
+        flex-direction: column;
     }
 
     .advantages__text-block {
@@ -516,11 +729,40 @@
         margin-top: 30px;
         padding-left: 30px;
         padding-right: 30px;
-        font-size: 16px;
+        font-size: 2.6vw;
     }
 
     .review-block__title {
         font-size: 25px;
+    }
+
+    .crypto-exchanges__list {
+        padding: 20px 0;
+    }
+
+    .crypto-exchanges__list img {
+        max-width: 60px;
+    }
+
+    .screen-block__first-col {
+        width: 100%;
+    }
+
+    .screen-block__second-col {
+        width: 100%;
+    }
+
+    .screen-block__exchange-rates {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .connect__comment-avatar {
+        max-width: 80px;
+    }
+
+    .connect__comment-info {
+        margin-left: 95px;
     }
 }
 
@@ -602,12 +844,27 @@
 
     .review-block__text {
         padding: 0 15px;
+        font-size: 3vw;
+    }
+
+    .review-block {
+        margin-bottom: -40px;
+    }
+
+    .advantages__card {
         font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .advantages__list {
+        padding: 0 10px;
     }
 
     .advantages__card-wrapper {
         padding: 15px;
         padding-bottom: 15px;
+        display: flex;
+        gap: 20px;
     }
 
     .advantages__text-wrapper {
@@ -619,7 +876,10 @@
     }
 
     .advantages__card-icon {
-        max-width: 80px;
+        max-width: 65px;
+        height: auto;
+        flex: 0 0 auto;
+        align-self: flex-start;
     }
 
     .advantages__card-text br {
@@ -646,16 +906,21 @@
         padding: 0 15px;
     }
 
-    .connect__comment-avatar {
-        display: none;
-    }
-
     .connect__comment-title {
         font-size: 20px;
+        width: 75%;
+    }
+
+    .connect__comment-avatar {
+        max-width: 20%;
+    }
+
+    .connect__comment-info {
+        margin-left: 0;
     }
 
     span.connect__comment-raiting {
-        width: 25%;
+        width: 50%;
     }
 
     .connect__comment-like::before {
@@ -676,7 +941,6 @@
 
     .connect__comment-block {
         padding: 20px;
-        min-height: 300px;
     }
 
     .connect__comment-text br {
@@ -700,6 +964,31 @@
     .footer__copyright {
         font-size: 14px;
     }
+    
+    .review-block__avatar {
+        border-width: 2px;
+    }
+
+    .description__title-wrapper {
+        padding: 0;
+    }
+
+    .wrapper {
+        padding: 0 10px;
+    }
+
+    .advantages__list {
+        padding-top: 40px;
+    }
+
+    .crypto-exchanges__list {
+        justify-content: space-between;
+        padding: 20px;
+    }
+
+    .crypto-exchanges__list img {
+        max-width: 45px;
+    }
 }
 
 @media(max-width: 425px) {
@@ -712,12 +1001,14 @@
     }
 
     .review-block__avatar {
-        display: none;
+        max-width: 60px;
+        width: 100%;
+        height: auto;
     }
 
     .review-block__title {
         font-size: 16px;
-        flex-direction: row;
+        /* flex-direction: row; */
         justify-content: space-between;
         gap: 0;
         width: 100%;
@@ -726,10 +1017,6 @@
 
     .chat-slider--mobile {
         margin-bottom: 30px;
-    }
-
-    .advantages__card {
-        font-size: 16px;
     }
 
     .advantages__title {
@@ -744,6 +1031,14 @@
         padding: 15px;
         font-size: 25px;
     }
+
+    .crypto-exchanges__list {
+        padding: 10px;
+    }
+
+    .crypto-exchanges__list img {
+        max-width: 25px;
+    }
 }
 
 @media(max-width: 375px) {
@@ -755,16 +1050,13 @@
         font-size: 40px;
     }
 
-    .review-block__title {
+    /* .review-block__title {
         display: none;
-    }
+    } */
 
     .review-block__text {
-        margin-top: 0;
-    }
-
-    .review-block__text {
-        font-size: 13px;
+        font-size: 12px;
+        margin-top: 5px;
     }
 
     .advantages__title {
@@ -805,5 +1097,26 @@
 
     .footer__lover-block {
         padding: 15px;
+    }
+
+    .review-block__avatar {
+        max-width: 40px;
+    }
+
+    .chat-slider--mobile {
+        padding: 0 10px;
+    }
+
+    .review-block__title {
+        font-size: 14px;
+    }
+
+    .review-block {
+        margin-bottom: -25px;
+    }
+
+    .connect__comment-title {
+        width: 70%;
+        margin-bottom: 0;
     }
 }
