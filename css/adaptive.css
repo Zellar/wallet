@@ -51,11 +51,13 @@
 
     .screen-block__wrapper {
         padding: 130px 140px;
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .gallery {
-        top: 6.8vw;
+        top: 9.6vw;
     }
 
     .screen-block__icon {
@@ -87,15 +89,37 @@
     .advantages__decor-coins img {
         width: 85%;
     }
+
+    .review-block__title {
+        font-size: 1.8vw;
+    }
+
+    .review-block__text {
+        font-size: 1.1vw;
+    }
+
+    .review-block {
+        padding-top: 2vw;
+    }
 }
 
 @media(max-width: 1540px) {
     .advantages__list {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
     }
 
     .gallery {
-        top: 8.8vw;
+        top: 13vw;
+    }
+
+    .gallery-controls {
+        bottom: -5vw;
+    }
+
+    .review-block {
+        height: 480px;
     }
 
     .screen-block__exchange-rates {
@@ -124,8 +148,25 @@
         padding: 200px 100px;
     }
     .hero__big-col {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .review-block {
+        height: 28vw;
+        padding-top: 4vw;
+        padding-bottom: 2vw;
+        padding-left: 2.5vw;
+        padding-right: 2.5vw;
+        gap: 15px;
+    }
+
+    .review-block__avatar {
+        max-width: 80px;
     }
 
     .btn {
@@ -145,7 +186,10 @@
     }
 
     .screen-block__wrapper {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .screen-block__text {
@@ -162,7 +206,9 @@
     }
 
     .advantages__list {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .advantages {
@@ -180,9 +226,16 @@
     }
 
     .advantages__text-block {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         margin-left: 0;
     }
 
@@ -212,7 +265,7 @@
     }
 
     .gallery {
-        top: 12vw;
+        top: 13vw;
     }
 
     .gallery-controls {
@@ -234,7 +287,9 @@
     }
 
     .screen-block__first-col {
-        align-items: flex-end;
+        -webkit-box-align: end;
+            -ms-flex-align: end;
+                align-items: flex-end;
     }
 }
 
@@ -244,13 +299,24 @@
     }
 
     .hero__big-col {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .review-block__avatar {
+        max-width: 70px;
     }
 
     .screen-block__wrapper {
         top: -60px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .screen-block__text {
@@ -260,14 +326,6 @@
     .screen-block__exchange-rates {
         width: 100%;
     }
-    
-    .btn span {
-        font-size: 30px;
-    }
-
-    .btn {
-        padding: 30px 40px;
-    }
 
     .wrapper {
         padding: 0 40px;
@@ -275,8 +333,11 @@
     }
 
     .advantages__list {
-        justify-content: center;
-        flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         gap: 50px;
     }
 
@@ -384,11 +445,16 @@
     .hero__big-col {
         width: 100%;
         text-align: center;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     .hero__wrapper {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .hero__header {
@@ -409,7 +475,21 @@
 
     .hero__col {
         width: 100%;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .review-block__avatar {
+        max-width: 100px;
+    }
+
+    .review-block__title {
+        font-size: 30px;
+    }
+
+    .review-block__text {
+        font-size: 20px;
     }
 
     .form__input {
@@ -426,12 +506,18 @@
     }
 
     .screen-block__wrapper {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 80px 120px;
     }
 
     .screen-block__exchange-rates {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 90%;
     }
 
@@ -503,26 +589,32 @@
     }
 
     .chat-slider--mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         padding: 0 40px;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         margin-bottom: 90px;
     }
 
     .review-block {
-        width: 100%;
+        width: 82vw;
         background-size: 100%;
         background-repeat: no-repeat;
-        height: calc(100vw - 30vw);
+        height: 66vw;
         display: block;
         margin-bottom: -80px;
         padding: 0;
     }
 
     .review-block__header {
-        /* margin-top: 150px; */
-        margin-top: calc(100vw - 80vw);
+        margin-top: 18vw;
         padding-left: 60px;
     }
 
@@ -546,9 +638,13 @@
     }
 
     .advantages__list {
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         gap: 15px;
     }
 
@@ -578,9 +674,16 @@
 
     .advantages__text-block {
         margin-left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         padding: 0 40px;
     }
 
@@ -621,15 +724,28 @@
     }
 }
 
-@media(min-width: 769px) {
+/* @media(min-width: 769px) {
     .review-block {
         width: 85vw;
     }
-}
+} */
+
+/* @media(min-width: 993px) {
+    .review-block {
+        width: 39.4vw;
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding-top: 6.2vw;
+    }
+} */
 
 @media(max-width: 768px) {
     .hero__header {
         font-size: 70px;
+    }
+
+    .review-block {
+        width: 85vw;
     }
 
     .hero {
@@ -669,7 +785,10 @@
 
     .advantages__list {
         margin-bottom: 40px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .advantages__text-block {
@@ -720,9 +839,17 @@
         font-size: 30px;
     }
 
+    .review-block {
+        margin-bottom: -50px
+    }
+
     .review-block__header {
-        margin-top: calc(100vw - 84vw);
+        margin-top: 20vw;
         padding-left: 30px;
+    }
+
+    .review-block__avatar {
+        max-width: 80px;
     }
 
     .review-block__text {
@@ -753,7 +880,10 @@
     }
 
     .screen-block__exchange-rates {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         width: 100%;
     }
 
@@ -764,6 +894,18 @@
     .connect__comment-info {
         margin-left: 95px;
     }
+
+    .connect__comment-raiting {
+        width: 50%;
+    }
+
+    .connect__comment-like {
+        transform: scale(0.8);
+    }
+
+    .connect__comment {
+        transform: scale(0.8);
+    }
 }
 
 @media(max-width: 576px) {
@@ -772,10 +914,15 @@
     }
 
     .crypto-exchanges__list {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         gap: 35px;
-        align-items: center;
-        flex-wrap: wrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 
     .screen-block__wrapper {
@@ -797,7 +944,9 @@
     }
 
     .screen-block__rates-block {
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .screen-block__rates-block {
@@ -835,6 +984,7 @@
     }
 
     .review-block__header {
+        margin-top: 16vw;
         padding-left: 15px;
     }
 
@@ -863,6 +1013,8 @@
     .advantages__card-wrapper {
         padding: 15px;
         padding-bottom: 15px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         gap: 20px;
     }
@@ -878,8 +1030,12 @@
     .advantages__card-icon {
         max-width: 65px;
         height: auto;
-        flex: 0 0 auto;
-        align-self: flex-start;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+        -ms-flex-item-align: center;
+            align-self: center;
+        margin-bottom: 0;
     }
 
     .advantages__card-text br {
@@ -909,10 +1065,11 @@
     .connect__comment-title {
         font-size: 20px;
         width: 75%;
+        margin-bottom: 0;
     }
 
     .connect__comment-avatar {
-        max-width: 20%;
+        max-width: 15%;
     }
 
     .connect__comment-info {
@@ -920,7 +1077,7 @@
     }
 
     span.connect__comment-raiting {
-        width: 50%;
+        width: 30%;
     }
 
     .connect__comment-like::before {
@@ -948,7 +1105,9 @@
     }
 
     .footer__link-wrapper {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         width: 100%;
         gap: 0;
     }
@@ -982,12 +1141,36 @@
     }
 
     .crypto-exchanges__list {
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         padding: 20px;
     }
 
     .crypto-exchanges__list img {
         max-width: 45px;
+    }
+
+    .form {
+        max-width: 380px;
+    }
+
+    .form__input {
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+
+    .form__input::placeholder {
+        font-size: 16px;
+    }
+
+    .form__textarea {
+        font-size: 16px;
+        padding: 15px 15px;
+    }
+
+    .form__textarea::placeholder {
+        font-size: 16px;
     }
 }
 
@@ -1009,7 +1192,9 @@
     .review-block__title {
         font-size: 16px;
         /* flex-direction: row; */
-        justify-content: space-between;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
         gap: 0;
         width: 100%;
         padding-right: 15px;
@@ -1039,6 +1224,21 @@
     .crypto-exchanges__list img {
         max-width: 25px;
     }
+
+    .review-block__text {
+        margin-top: 20px;
+        font-size: 12px;
+    }
+
+    .review-block {
+        width: 90vw;
+        margin-bottom: -20px;
+    }
+
+    .footer__logo {
+        width: 70%;
+        text-align: center;
+    }
 }
 
 @media(max-width: 375px) {
@@ -1049,10 +1249,6 @@
     .hero__header {
         font-size: 40px;
     }
-
-    /* .review-block__title {
-        display: none;
-    } */
 
     .review-block__text {
         font-size: 12px;
@@ -1113,10 +1309,36 @@
 
     .review-block {
         margin-bottom: -25px;
+        width: 92vw;
+        height: 70vw;
+        display: flex;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .review-block__header {
+        margin-top: 6vw;
     }
 
     .connect__comment-title {
         width: 70%;
         margin-bottom: 0;
+    }
+
+    .connect__comment-avatar {
+        max-width: 18%;
+    }
+
+    .screen-block__currency {
+        font-size: 20px;
+    }
+
+    .screen-block__number {
+        font-size: 20px;
+    }
+
+    .screen-block__icon {
+        width: 25px;
+        height: 25px;
     }
 }
