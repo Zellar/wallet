@@ -1173,8 +1173,12 @@
         font-size: 16px;
     }
 
-    a.footer__logo {
-        width: 250px;
+    img.logo__img {
+        width: 15%;
+    }
+
+    span.logo__text {
+        font-size: 18px;
     }
 }
 
@@ -1239,10 +1243,10 @@
         margin-bottom: -20px;
     }
 
-    .footer__logo {
-        width: 200px;
-        text-align: center;
+    span.logo__text {
+        font-size: 16px;
     }
+
 }
 
 @media(max-width: 375px) {

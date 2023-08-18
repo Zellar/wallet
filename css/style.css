@@ -30,6 +30,20 @@ body {
     overflow: hidden;
 }
 
+.logo {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+span.logo__text {
+    font-size: 23px;
+    color: #4D4D50;
+    font-weight: 700;
+    white-space: nowrap;
+    font-family: 'Montserrat';
+}
+
 .btn span {
     position: relative;
     color: #1E1E1E;
@@ -930,6 +944,11 @@ body {
     font-weight: 500;
 }
 
+.footer__logo {
+    width: 100%;
+    justify-content: center;
+}
+
 .chat-slider--mobile {
     display: none;
 }
@@ -1197,4 +1216,15 @@ body {
 
 .advantages {
     padding-top: 15vw;
+}
+
+
+/* Animation */
+
+[data-aos="new-animation"] {
+    opacity: 0;
+    transition-property: transform, opacity;
+}
+[data-aos="new-animation"].aos-animate {
+    opacity: 1;
 }

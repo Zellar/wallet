@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="fonts/fonts.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/aos.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/adaptive.css">
     <link rel="apple-touch-icon" sizes="180x180" href="icon /apple-touch-icon.png">
@@ -20,7 +21,10 @@
     <header class="header">
 
         <div class="container-fluid">
-            <a href="index.html"><img class="header__logo" src="images/logo.png" alt=""></a>
+            <a class="logo" href="index.html">
+                <img class="logo__img" src="images/logo.webp" alt="">
+                <span class="logo__text">Immediate Connect</span>
+            </a>
         </div>
         
     </header>
@@ -36,7 +40,7 @@
                         <span class="hero__header-decor">80£ p</span>
                     </h1>
                 </div>
-                <div class="hero__col">
+                <div id="form" class="hero__col">
                     <form class="form" action="">
                         <input class="form__input" name="name" type="text" placeholder="Enter first name">
                         <input class="form__input" name="second_name" type="text" placeholder="Enter last name">
@@ -45,7 +49,7 @@
                     </form>
                 </div>
                 <div class="btn-wrapper">
-                    <button class="btn"><span>Immediate income</span></button>
+                    <button href="#form" class="btn"><span>Immediate income</span></button>
                 </div>
             </div>
         </section>
@@ -100,38 +104,8 @@
                 </div>
             </div>
             <div class="chat-slider">
-                <!-- <div class="chat-slider__wrapper swiper">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img src="images/review-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/review-2.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/review-3.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/review-1.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/review-2.png" alt="">
-                        </div>
-                        <div class="swiper-slide">
-                            <img src="images/review-3.png" alt="">
-                        </div>
-                    </div>
-                    <div class="swiper-buttons__wrapper">
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
-                </div> -->
-
                 <div class="gallery">
                     <div class="gallery-container">
-                        <!-- <img src="images/review-3.png" alt="" class="gallery-item gallery-item-1" data-index="1">
-                        <img src="images/review-1.png" alt="" class="gallery-item gallery-item-2" data-index="2">
-                        <img src="images/review-2.png" alt="" class="gallery-item gallery-item-3" data-index="3"> -->
                         <div class="review-block gallery-item gallery-item-1" data-index="1">
                             <div class="review-block__header">
                                 <div class="review-block__avatar">
@@ -271,7 +245,7 @@
                 </div>
             </div>
             <div class="btn-wrapper">
-                <button class="btn"><span>Immediate income</span></button>
+                <button href="#form" class="btn"><span>Immediate income</span></button>
             </div>
 
             <div class="advantages__text-block">
@@ -296,7 +270,7 @@
             <div class="advantages__decor-left">
                 <img src="images/left-cloud.webp" alt="">
             </div>
-            <div class="advantages__decor-right">
+            <div class="advantages__decor-right" data-aos="fade-left">
                 <img src="images/right-cloud.webp" alt="">
             </div>
 
@@ -377,7 +351,7 @@
                 </div>
             </div>
             <div class="btn-wrapper">
-                <button class="btn"><span>Immediate income</span></button>
+                <button href="#form" class="btn"><span>Immediate income</span></button>
             </div>
         </section>
     </main>
@@ -389,7 +363,10 @@
                         <a class="footer__link" href="#">Privacy Policy</a>
                         <a class="footer__link" href="#">Terms</a>
                     </div>
-                    <a class="footer__logo" href="index.html"><img class="footer__logo" src="images/logo.png" alt=""></a>
+                    <a class="logo footer__logo" href="index.html">
+                        <img class="logo__img" src="images/logo.webp" alt="">
+                        <span class="logo__text">Immediate Connect</span>
+                    </a>
                     <p class="footer__tagline">It's Easy When You Know How</p>
                 </div>
             </div>
@@ -402,6 +379,10 @@
             </div>
         </div>
     </footer>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script src="js/main.js"></script>
 </body>
 </html>
