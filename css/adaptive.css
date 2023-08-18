@@ -22,7 +22,7 @@
     }
 
     .gallery-controls {
-        bottom: -8vw;
+        bottom: -8givw;
     }
 
     .advantages {
@@ -1172,6 +1172,10 @@
     .form__textarea::placeholder {
         font-size: 16px;
     }
+
+    a.footer__logo {
+        width: 250px;
+    }
 }
 
 @media(max-width: 425px) {
@@ -1236,7 +1240,7 @@
     }
 
     .footer__logo {
-        width: 70%;
+        width: 200px;
         text-align: center;
     }
 }
