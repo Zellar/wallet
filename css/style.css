@@ -877,7 +877,7 @@ span.logo__text {
 
 .connect__comment-block {
     border-radius: 40px;
-    background: rgba(255, 255, 255, 0.90);
+    background: rgba(255, 255, 255, 1);
     padding: 25px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -893,9 +893,9 @@ span.logo__text {
     height: 100%;
 }
 
-.connect__comment-block:first-child {
+/* .connect__comment-block:first-child {
     background: rgba(255, 255, 255, 1);
-}
+} */
 
 .connect__comment-avatar {
     border-radius: 50%;
