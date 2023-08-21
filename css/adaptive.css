@@ -302,6 +302,10 @@ b {
         background-size: contain;
     }
 
+    span.connect__comment-raiting {
+        width: 100px;
+    }
+
 }
 
 @media(max-width: 1400px) {
