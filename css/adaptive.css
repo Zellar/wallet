@@ -1,18 +1,65 @@
 .hero__header-decor::before {
-    width: 4.5em;
-    height: 4.5em;
-    top: -2.3em;
-    left: -1.1em;
+    width: 4.6em;
+    height: 3.23em;
+    /* top: -2.3em;
+    left: -1.1em; */
+    top: -1.5em;
+    left: -0.44em;
+}
+
+b {
+    font-weight: 900;
 }
 
 .hero__header-decor {
-    right: 1.4em;
+    right: 6.75em;
     word-spacing: 0px;
+    bottom: 50%;
+}
+
+@media(min-width: 1921px) {
+    .gallery-item {
+        background-size: cover;
+        height: 28vw;
+    }
+
+    .review-block__text {
+        font-size: 1.1vw;
+    }
+
+    .review-block__title {
+        font-size: 1.8vw;
+    }
+
+    .review-block__avatar {
+        max-width: 6vw;
+    }
+
+    .advantages__card {
+        font-size: 1.2vw;
+        max-width: 25%;
+    }
+
+    .hero__header {
+        font-size: calc(100vw - 95.2vw);
+    }
+
+    .screen-block__rates-block {
+        max-width: 100%;
+    }
+
+    .hero__comment-title {
+        font-size: 2vw;
+    }
+
+    .hero__comment-text-block {
+        font-size: 1.2vw;
+    }
 }
 
 @media(max-width: 1940px) {
     .hero__header {
-        font-size: calc(100vw - 92.4vw);
+        font-size: calc(100vw - 95.2vw);
     }
 }
 
@@ -22,11 +69,19 @@
     }
 
     .gallery-controls {
-        bottom: -8givw;
+        bottom: -8vw;
     }
 
     .advantages {
         padding-top: 15vw;
+    }
+
+    .hero__comment-title {
+        font-size: 35px;
+    }
+
+    .hero__comment-text-block {
+        font-size: 22px;
     }
 }
 
@@ -40,13 +95,34 @@
     }
 
     .gallery {
-        top: 4.8vw;
+        top: 6.4vw;
+    }
+
+    .hero__header {
+        font-size: calc(100vw - 95.6vw);
+    }
+
+    .description__title-wrapper {
+        margin-bottom: -40px;
+    }
+
+    .hero__comment-text-block {
+        font-size: 20px;
     }
 }
 
 @media(max-width: 1730px) {
     .hero__header {
-        font-size: calc(100vw - 93.5vw);
+        font-size: calc(100vw - 96vw);
+    }
+
+    .hero__wrapper {
+        align-items: center;
+    }
+
+    .hero {
+        padding-top: 100px;
+        padding-bottom: 150px;
     }
 
     .screen-block__wrapper {
@@ -101,6 +177,30 @@
     .review-block {
         padding-top: 2vw;
     }
+
+    .description__title-wrapper {
+        margin-bottom: -80px;
+    }
+
+    .gallery-controls {
+        bottom: -6vw;
+    }
+
+    .advantages__text-block {
+        width: 45%;
+    }
+
+    .hero__comment-text-block {
+        font-size: 18px;
+    }
+
+    .hero__comment-title {
+        font-size: 30px;
+    }
+
+    .hero__comment-text-block {
+        height: 45%;
+    }
 }
 
 @media(max-width: 1540px) {
@@ -141,11 +241,55 @@
     .advantages__text-wrapper {
         font-size: 16px;
     }
+
+    .description__title-wrapper {
+        margin-bottom: -180px;
+    }
+
+    .screen-block__wrapper {
+        padding-bottom: 0;
+        gap: 30px;
+    }
+
+    .advantages__card-icon {
+        max-width: 100px;
+    }
+
+    .btn {
+        padding: 32px 46px;
+    }
+
+    .btn span {
+        font-size: 30px;
+    }
+
+    .advantages__text-block {
+        width: 45%;
+        margin-left: 150px;
+    }
+
+    .hero__header {
+        font-size: calc(100vw - 96.2vw);
+    }
+
+    .form__input {
+        padding: 30px 15px;
+        font-size: 20px;
+    }
+
+    .form__textarea {
+        padding: 30px 15px;
+        font-size: 20px;
+    }
+
+    .hero__comment-block {
+        width: 40%;
+    }
 }
 
 @media(max-width: 1400px) {
     .hero {
-        padding: 200px 100px;
+        padding: 100px 100px 150px;
     }
     .hero__big-col {
         display: -webkit-box;
@@ -202,7 +346,7 @@
     
     .wrapper {
         padding: 0 40px;
-        margin-bottom: -140px;
+        margin-bottom: -60px;
     }
 
     .advantages__list {
@@ -291,11 +435,56 @@
             -ms-flex-align: end;
                 align-items: flex-end;
     }
+
+    .screen-block__text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .reg-title {
+        margin-top: 80px;
+    }
+
+    .description__title {
+        font-size: 40px;
+    }
+
+    .description__subtitle {
+        font-size: 22px;
+    }
+
+    .advantages__text-block {
+        width: 50%;
+    }
+
+    .advantages__title {
+        margin-bottom: 30px;
+    }
+
+    .footer__link {
+        font-size: 25px;
+    }
+
+    .footer__tagline {
+        font-size: 30px;
+    }
+
+    .footer__upper-block {
+        padding: 45px 0;
+    }
+
+    .hero__comment-title {
+        font-size: 25px;
+    }
+
+    .hero__comment-block {
+        width: 45%;
+    }
 }
 
 @media(max-width: 1200px) {
     .hero {
-        padding: 60px;
+        padding: 60px 60px 100px;
     }
 
     .hero__big-col {
@@ -329,7 +518,7 @@
 
     .wrapper {
         padding: 0 40px;
-        margin-bottom: -280px;
+        margin-bottom: -100px;
     }
 
     .advantages__list {
@@ -343,7 +532,7 @@
 
     .advantages {
         padding: 80px 10px;
-        padding-top: 250px;
+        padding-top: 200px;
     }
 
     .advantages__decor-coins {
@@ -430,6 +619,70 @@
     .advantages__card-wrapper {
         padding: 20px;
     }
+
+    .description__title {
+        font-size: 30px;
+    }
+
+    .description__subtitle {
+        font-size: 20px;
+    }
+
+    .reg-title {
+        margin-top: 40px;
+    }
+
+    .crypto-exchanges__list img {
+        max-width: 60px;
+    }
+
+    .connect__comment-avatar {
+        max-width: 80px;
+    }
+
+    .connect__comment-info {
+        margin-left: 95px;
+    }
+
+    .connect__comment-title {
+        font-size: 25px;
+    }
+
+    span.connect__comment-raiting {
+        width: 50%;
+    }
+
+    .connect__comment-text {
+        font-size: 18px;
+    }
+
+    .connect__comment-btns {
+        font-size: 20px;
+    }
+
+    .connect__comment-like::before {
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .connect__comment::before {
+        width: 30px;
+        height: 30px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .hero__comment-block {
+        width: 50%;
+    }
+
+    .hero__comment-text-block {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -458,19 +711,7 @@
     }
 
     .hero__header {
-        font-size: 90px;
-    }
-
-    .hero__header-decor {
-        right: 1.4em;
-        word-spacing: 0px;
-    }
-
-    .hero__header-decor::before {
-        width: 4.5em;
-        height: 4.5em;
-        top: -2.3em;
-        left: -1.1em;
+        font-size: 7vw;
     }
 
     .hero__col {
@@ -510,7 +751,15 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        padding: 80px 120px;
+        padding: 80px 200px;
+        background: url('/images/phone-mob-2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: 65%;
+        background-position: top center;
+        padding-bottom: 0;
+        gap: 30px;
+        top: -60px;
     }
 
     .screen-block__exchange-rates {
@@ -518,7 +767,11 @@
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        width: 90%;
+        width: 100%;
+    }
+
+    .description__title-wrapper {
+        margin-bottom: 0px;
     }
 
     .screen-block__text {
@@ -550,18 +803,6 @@
 
     .screen-block__currency {
         font-size: 20px;
-    }
-
-    .screen-block__wrapper {
-        background: url('/images/phone-mob-2.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-size: 65%;
-        background-position: top center;
-        padding-bottom: 0;
-        padding: 80px 160px;
-        gap: 30px;
-        top: -60px;
     }
 
     .description__title {
@@ -631,10 +872,12 @@
 
     .advantages {
         padding: 0;
-        background: url('/images/pattern-mob.webp');
+        background: url('/images/ff.webp');
         background-repeat: no-repeat;
+        background-position: center 80%;
+        background-size: 100%;
         padding-bottom: 30px;
-        background-size: 90%;
+        background-size: 120%;
     }
 
     .advantages__list {
@@ -685,6 +928,16 @@
             -ms-flex-align: center;
                 align-items: center;
         padding: 0 40px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .crypto-exchanges__list {
+        padding: 20 0;
+    }
+
+    .advantages__title br {
+        display: none;
     }
 
     .advantages__text br {
@@ -708,13 +961,6 @@
         padding: 0 20px;
     }
 
-    .advantages {
-        background: url('/images/ff.webp');
-        background-repeat: no-repeat;
-        background-position: center 102%;
-        background-size: 100%;
-    }
-
     .review-block__text br {
         display: none;
     }
@@ -722,26 +968,36 @@
     .wrapper {
         margin-bottom: 0;
     }
+
+    .hero__comment-title-block hr {
+        margin: 10px 0;
+    }
+
+    .hero__comment-title {
+        font-size: 20px;
+    }
+
+    .hero__comment-text-block {
+        font-size: 14px;
+    }
 }
 
-/* @media(min-width: 769px) {
-    .review-block {
-        width: 85vw;
-    }
-} */
-
-/* @media(min-width: 993px) {
-    .review-block {
-        width: 39.4vw;
-        background-repeat: no-repeat;
-        background-size: contain;
-        padding-top: 6.2vw;
-    }
-} */
-
 @media(max-width: 768px) {
-    .hero__header {
-        font-size: 70px;
+
+    .hero__comment-title {
+        font-size: 25px;
+    }
+
+    .hero__comment-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .hero__comment-block {
+        width: 80%;
+    }
+
+    .hero__comment-text-block {
+        font-size: 18px;
     }
 
     .review-block {
@@ -781,6 +1037,11 @@
 
     .description__title {
         font-size: 40px;
+    }
+
+    .advantages {
+        background-size: contain;
+        background-position: center 120%;
     }
 
     .advantages__list {
@@ -906,12 +1167,13 @@
     .connect__comment {
         transform: scale(0.8);
     }
+
+    .hero__comment-wrapper {
+        margin-top: 50px;
+    }
 }
 
 @media(max-width: 576px) {
-    .hero__header {
-        font-size: 55px;
-    }
 
     .crypto-exchanges__list {
         -webkit-box-pack: center;
@@ -1180,12 +1442,21 @@
     span.logo__text {
         font-size: 18px;
     }
+
+    .hero__comment-block {
+        width: 100%;
+    }
+
+    .hero__comment-text-block {
+        font-size: 16px;
+    }
+
+    .hero__comment-title {
+        font-size: 22px;
+    }
 }
 
 @media(max-width: 425px) {
-    .hero__header {
-        font-size: 45px;
-    }
 
     .description__title {
         font-size: 30px;
@@ -1247,15 +1518,27 @@
         font-size: 16px;
     }
 
+    .hero__comment-text-block {
+        padding: 10px;
+    }
+
+    .hero__comment-block {
+        border-radius: 20px;
+    }
+
+    .hero__comment-text-block {
+        font-size: 14px;
+    }
+
+    .hero__comment-title {
+        font-size: 20px;
+    }
+
 }
 
 @media(max-width: 375px) {
     .hero {
         padding: 20px 15px;
-    }
-
-    .hero__header {
-        font-size: 40px;
     }
 
     .review-block__text {
@@ -1348,5 +1631,10 @@
     .screen-block__icon {
         width: 25px;
         height: 25px;
+    }
+
+    .hero__comment-img img {
+        height: 520px;
+        object-fit: cover;
     }
 }
