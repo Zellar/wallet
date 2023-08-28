@@ -712,7 +712,7 @@ b {
     .hero {
         padding: 100px 20px;
         font-size: 52px;
-        background: url('/images/pattern-mob.webp'), url('/images/coins-mob.webp');
+        background: url('../images/pattern-mob.webp'), url('../images/coins-mob.webp');
         background-size: cover, 90%;
         background-repeat: no-repeat, no-repeat;
         background-position: center, 0% -40%;
@@ -775,7 +775,7 @@ b {
             -ms-flex-direction: column;
                 flex-direction: column;
         padding: 80px 200px;
-        background: url('/images/phone-mob-2.png');
+        background: url('../images/phone-mob-2.png');
         background-repeat: no-repeat;
         background-size: cover;
         background-size: 65%;
@@ -895,7 +895,7 @@ b {
 
     .advantages {
         padding: 0;
-        background: url('/images/ff.webp');
+        background: url('../images/ff.webp');
         background-repeat: no-repeat;
         background-position: center 80%;
         background-size: 100%;
