@@ -54,14 +54,20 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
 
-    // exampleCarousel.setControls();
-    // exampleCarousel.useControls();
-    // Установить автопролистывание слайдера
-    // setInterval(function() {
-    //     document.querySelector('.gallery-controls-next').click();
-    // }, 3000);
+
+
+    const mediaQuery = window.matchMedia('(min-width: 993px)');
+    if (mediaQuery.matches) {
+        const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
+
+        exampleCarousel.setControls();
+        exampleCarousel.useControls();
+        // Установить автопролистывание слайдера
+        // setInterval(function() {
+        //     document.querySelector('.gallery-controls-next').click();
+        // }, 3000);
+    }
 
     const anchors = document.querySelectorAll('.btn');
 
