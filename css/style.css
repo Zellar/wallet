@@ -713,8 +713,8 @@ span.logo__text {
         line-height: 31px;
         overflow: hidden;
         text-transform: uppercase;
-        -webkit-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10));
-                filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10));
+        /* -webkit-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10));
+                filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10)); */
     }
 
         .advantages__card-wrapper {
