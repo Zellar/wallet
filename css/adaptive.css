@@ -920,18 +920,22 @@ b {
 
     .advantages__decor-right {
         display: none;
+        position: static;
     }
 
     .advantages__decor-left {
         display: none;
+        position: static;
     }
 
     .advantages__decor-bottom {
         display: none;
+        position: static;
     }
 
     .advantages__decor-coins {
         display: none;
+        position: static;
     }
 
     .advantages__card-wrapper {

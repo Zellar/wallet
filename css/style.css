@@ -713,8 +713,8 @@ span.logo__text {
         line-height: 31px;
         overflow: hidden;
         text-transform: uppercase;
-        -webkit-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10)) drop-shadow(0px 13px 29px rgba(0, 0, 0, 0.10)) drop-shadow(0px 52px 52px rgba(0, 0, 0, 0.09)) drop-shadow(0px 118px 71px rgba(0, 0, 0, 0.05)) drop-shadow(0px 209px 84px rgba(0, 0, 0, 0.01)) drop-shadow(0px 327px 92px rgba(0, 0, 0, 0.00));
-                filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10)) drop-shadow(0px 13px 29px rgba(0, 0, 0, 0.10)) drop-shadow(0px 52px 52px rgba(0, 0, 0, 0.09)) drop-shadow(0px 118px 71px rgba(0, 0, 0, 0.05)) drop-shadow(0px 209px 84px rgba(0, 0, 0, 0.01)) drop-shadow(0px 327px 92px rgba(0, 0, 0, 0.00));
+        -webkit-filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10));
+                filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10));
     }
 
         .advantages__card-wrapper {
