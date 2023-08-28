@@ -54,10 +54,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
+    // const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
 
-    exampleCarousel.setControls();
-    exampleCarousel.useControls();
+    // exampleCarousel.setControls();
+    // exampleCarousel.useControls();
     // Установить автопролистывание слайдера
     // setInterval(function() {
     //     document.querySelector('.gallery-controls-next').click();
